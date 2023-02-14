@@ -26,7 +26,7 @@ $sql = "INSERT INTO pizza (Id
                             ,:saus
                             ,:pizzatoppings
                             ,:kruiden);";
-
+// 
 $statement = $pdo->prepare($sql);
 $statement->bindValue(':bodemformaat', $_POST['pizzaformaat'], PDO::PARAM_STR);
 $statement->bindValue(':saus', $_POST['sauce'], PDO::PARAM_STR);
