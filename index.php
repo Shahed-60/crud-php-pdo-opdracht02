@@ -8,6 +8,7 @@
     <!-- <link rel="stylesheet" href="css/style.css"> -->
     <title>PIZZA</title>
 </head>
+<!--  -->
 
 <body>
     <h1>maak je eigen pizza!</h1>
