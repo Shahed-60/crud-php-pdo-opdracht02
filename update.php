@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         header('Refresh:3; url=read.php');
         echo $e->getMessage();
     }
-
+    // 
     exit();
 }
 
