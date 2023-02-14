@@ -20,7 +20,7 @@ $sql = "SELECT * FROM pizza";
 $statement = $pdo->prepare($sql);
 $statement->execute();
 $result = $statement->fetchAll(PDO::FETCH_OBJ);
-
+// 
 $rows = "";
 foreach ($result as $info) {
     $rows .= "<tr>

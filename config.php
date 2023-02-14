@@ -5,4 +5,3 @@ $dbHost = 'localhost';
 $dbName = 'maakzelfjepizza';
 $dbUser = 'root';
 $dbPass = '';
-// 
